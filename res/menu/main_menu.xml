@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_bookshelf" android:title="@string/bookshelf" android:icon="@drawable/ic_menu_home"/>
+    <item android:id="@+id/menu_toplist"   android:icon="@drawable/ic_menu_favorite"
+		android:title="@string/findbook" /> 
+	<item android:id="@+id/menu_help" android:icon="@android:drawable/ic_menu_help"
+		android:title="@string/aboutTitle" />
+   
+</menu>

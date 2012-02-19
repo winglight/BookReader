@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小说在线</string>
+    <string name="mainpage">主页</string>
+    <string name="classpage">分类</string>
+    <string name="quitMain">退出</string>
+    <string name="sureTxt">我已满18岁，并且同意以上约定.</string>
+    <string name="backMain">我确定!</string>
+    <string name="aboutTitle">帮助</string>
+    <string name="downloadSingleImaage">下载这张照片</string>
+    <string name="downloadAllImaage">下载此页所有图片</string>
+    <string name="saveThisLink">保存这个链接</string>
+    <string name="saveLiknInclNextLevel">保存这个链接以及下一级链接</string>
+    <string name="browseFavorite">收藏</string>
+    <string name="sendEmail">发送 E-mail</string>
+    <string name="copyEmailAddr">拷贝E-mail地址</string>
+    <string name="bookintro">书页</string>
+    <string name="content">书目</string>
+    <string name="fulltext">全文阅读</string>
+    <string name="search">在线搜索</string>
+    <string name="addfavorite">收藏</string>
+    <string name="bookshelf">书架</string>
+    <string name="findbook">找书</string>
+    <string name="update">更新</string>
+    <string name="netError">发生网络异常, 请试试其他系列或者等等再试.</string>
+    <string name="addMore">点击查找更多…</string>
+    <string name="isFavorite">已收藏</string>
+    <string name="waitTitle">连接网络中</string>
+    <string name="waitContent">连接网络中，请稍候…</string>
+    <string name="addFavoriteBookSuccess">已成功收藏这本书</string>
+    <string name="removeFavoriteBookSuccess">已取消收藏这本书</string>
+    <string name="viewIntro">浏览书页</string>
+    <string name="viewContent">浏览书目</string>
+    <string name="searchOnline">在线搜索</string>
+    <string name="viewFromLastRead">继续阅读</string>
+    <string name="deleteBookview">取消收藏</string>
+    <string name="noLastReadRecord">本书还没有阅读记录…</string>
+    <string name="arrangeBookshelf">整理书架</string>
+    <string name="finishArrangeBookshelf">整理完毕</string>
+    <string name="noFulltext">本书没有全文阅读页面…</string>
+    <string name="searchHint">按书名查找…</string>
+    <string name="searchHint2">按书名,作者,书号,标签查找…</string>
+    <string-array name="source">
+		<item>某点</item>
+		<item>某横</item>
+		<item>国学</item>
+		<item>书库</item>
+		<!-- 
+		<item>本地</item>
+		 -->
+	</string-array>
+	<string-array name="qibookcategory">
+		<item>全部分类</item>
+		<item>玄幻奇幻</item>
+		<item>武侠仙侠</item>
+		<item>都市言情</item>
+		<item>历史军事</item>
+		<item>游戏竞技</item>
+		<item>科幻灵异</item>
+		<item>当月新书</item>
+	</string-array>
+	<string-array name="qibookcategory2">
+		<item>全部分类</item>
+		<item>玄幻</item>
+		<item>奇幻</item>
+		<item>武侠</item>
+		<item>仙侠</item>
+		<item>都市</item>
+		<item>历史</item>
+		<item>军事</item>
+		<item>游戏</item>
+		<item>竞技</item>
+		<item>科幻</item>
+		<item>灵异</item>
+	</string-array>
+	<string-array name="qitopcategory">
+		<item>月票</item>
+		<item>强推</item>
+		<item>点击</item>
+		<item>书友推荐</item>
+		<item>书友收藏</item>
+		<item>VIP推荐</item>
+		<item>VIP收藏</item>
+	</string-array>
+	<string-array name="zhbookcategory">
+		<item>全部分类</item>
+		<item>玄幻奇幻</item>
+		<item>武侠仙侠</item>
+		<item>历史军事</item>
+		<item>都市娱乐</item>
+		<item>竞技同人</item>
+		<item>科幻游戏</item>
+		<item>悬疑灵异</item>
+	</string-array>
+	<string-array name="zhbookcategory2">
+		<item>总榜</item>
+		<item>日</item>
+		<item>周</item>
+		<item>月</item>
+	</string-array>
+	<string-array name="zhtopcategory">
+		<item>点击</item>
+		<item>红票</item>
+		<item>黑票</item>
+		<item>收藏</item>
+		<item>新书</item>
+		<item>全本</item>
+	</string-array>
+	<string-array name="localbookcategory">
+		<item>全部格式</item>
+		<item>PDF</item>
+		<item>TXT</item>
+		<item>HTML</item>
+	</string-array>
+	<string-array name="localtopcategory">
+		<item>按位置排序</item>
+		<item>按文件名排序</item>
+		<item>重新扫描SD卡</item>
+	</string-array>
+	<string-array name="guotopcategory">
+		<item>经部</item>
+		<item>史部</item>
+		<item>子部</item>
+		<item>集部</item>
+	</string-array>
+	<string-array name="guozicategory">
+		<item>兵家</item>
+		<item>诸子</item>
+		<item>杂家</item>
+		<item>类书</item>
+		<item>小说</item>
+		<item>笔记</item>
+	</string-array>
+	<string-array name="shukutopcategory">
+		<item>人物传记</item>
+		<item>现代文学</item>
+		<item>科幻小说</item>
+		<item>世界文学</item>
+		<item>古典文学</item>
+		<item>纪实文学</item>
+		<item>官场小说</item>
+		<item>励志处世</item>
+		<item>恐怖小说</item>
+		<item>社科历史</item>
+		<item>百科生活</item>
+		<item>经济管理</item>
+	</string-array>
+</resources>

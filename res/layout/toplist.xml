@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:background="#FFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.omdasoft.android.customview.WheelView
+            android:id="@+id/sourceWheelView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"/>
+
+        <com.omdasoft.android.customview.WheelView
+            android:id="@+id/topListWheelView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"/>
+        
+        <com.omdasoft.android.customview.WheelView
+            android:id="@+id/categoryWheelView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/searchBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/searchTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/searchImgBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_cn_32" />
+
+    </LinearLayout>
+
+<Button
+			    android:id="@+id/getTopListBtn"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/button_selector"
+			    android:padding="5dp"
+			    android:text="@string/addMore" />
+    <ListView
+        android:id="@+id/topListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>

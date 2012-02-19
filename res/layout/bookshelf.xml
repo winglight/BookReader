@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" >
+		<GridView
+		    android:id="@+id/bookGrid"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/grid_back"
+		    android:numColumns="3"
+		    android:paddingTop="15dp"
+		    android:paddingBottom="4dp"
+		    android:paddingLeft="4dp"
+		    android:paddingRight="3dp" >
+
+		</GridView>
+ <com.omdasoft.android.customview.grid.DraggableGridView
+    android:id="@+id/bookOrderGrid"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="0dp"
+		    android:layout_marginTop="50dp"
+			android:isScrollContainer="true" >
+     
+ </com.omdasoft.android.customview.grid.DraggableGridView>
+
+ <ToggleButton
+     android:id="@+id/arrangeBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginRight="23dp"
+     android:textSize="15dp"
+     android:checked="false"
+     android:textOn="@string/finishArrangeBookshelf" 
+     android:textOff="@string/arrangeBookshelf"
+     android:paddingLeft="16dp"
+     android:background="@drawable/arrange_selector"/>
+
+	</RelativeLayout>
